@@ -13,17 +13,17 @@ Jalankan installernya
 2. Run QEMU :
 Note - Ubah xxx sesuai dengan versi windows yang kalian pilih.
 <p>
-qemu-system-x86_64 \
--m 3G \
--cpu host \
--enable-kvm \
--boot order=d \
--drive file=windows2022.iso,media=cdrom \
--drive file=windows2022.img,format=raw,if=virtio \
--drive file=virtio-win.iso,media=cdrom \
--device usb-ehci,id=usb,bus=pci.0,addr=0x4 \
--device usb-tablet \
--vnc :0 \
+qemu-system-x86_64 \ <br>
+-m 3G \ <br>
+-cpu host \ <br>
+-enable-kvm \ <br>
+-boot order=d \ <br>
+-drive file=windows2022.iso,media=cdrom \ <br>
+-drive file=windows2022.img,format=raw,if=virtio \ <br>
+-drive file=virtio-win.iso,media=cdrom \ <br>
+-device usb-ehci,id=usb,bus=pci.0,addr=0x4 \ <br>
+-device usb-tablet \ <br>
+-vnc :0 \ <br>
 </p>
 PENTING : Enter 2x
 
