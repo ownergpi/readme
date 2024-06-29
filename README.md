@@ -12,7 +12,7 @@ Jalankan installernya
 
 2. Run QEMU :
 Note - Ubah xxx sesuai dengan versi windows yang kalian pilih.
-<h3>
+<p>
 qemu-system-x86_64 \
 -m 3G \
 -cpu host \
@@ -24,7 +24,7 @@ qemu-system-x86_64 \
 -device usb-ehci,id=usb,bus=pci.0,addr=0x4 \
 -device usb-tablet \
 -vnc :0 \
-</h3>
+</p>
 PENTING : Enter 2x
 
 4. Akses via VNC :
