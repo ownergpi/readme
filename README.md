@@ -18,12 +18,13 @@ qemu-system-x86_64 \
 -cpu host \
 -enable-kvm \
 -boot order=d \
--drive file=windows2xxx.iso,media=cdrom \
--drive file=windows2xxx.img,format=raw,if=virtio \
+-drive file=windows2022.iso,media=cdrom \
+-drive file=windows2022.img,format=raw,if=virtio \
 -drive file=virtio-win.iso,media=cdrom \
 -device usb-ehci,id=usb,bus=pci.0,addr=0x4 \
 -device usb-tablet \
 -vnc :0 \
+
 PENTING : Enter 2x
 
 4. Akses via VNC :
