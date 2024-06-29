@@ -2,7 +2,7 @@
 
 1. Download & Setup Installer :
 Download file Installernya
-- wget https://raw.githubusercontent.com/rennode/Custom-Windows-Server-Image/main/windows-server-autoinstaller.sh
+- wget https://raw.githubusercontent.com/ownergpi/readme/main/windows-server-autoinstaller.sh
 
 Beri permission ke file tersebut
 - chmod +x windows-server-autoinstaller.sh
