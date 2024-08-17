@@ -47,7 +47,7 @@ case $choice in
     4)
         # Windows 11 lite
         img_file="windows11lite.img"
-        iso_link="http://152.42.254.10/win11lite.iso"
+        iso_link="http://152.42.254.10/win11.iso"
         iso_file="windows11lite.iso"
         ;;
     *)
