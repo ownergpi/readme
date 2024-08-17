@@ -62,13 +62,6 @@ cat >/tmp/net.bat<<EOF
 @echo off
 title SSHAXOR AUTO CREATE RDP DigitalOcean
 color F2
-echo.
-echo   ____ ____  _   _    _    __  _____  ____  
-echo  / ___/ ___^|^| ^| ^| ^|  / \   \ \/ / _ \^|  _ \ 
-echo  \___ \___ \^| ^|_^| ^| / _ \   \  / ^| ^| ^| ^|_) ^|
-echo   ___) ^|__) ^|  _  ^|/ ___ \  /  \ ^|_^| ^|  _ ^< 
-echo  ^|____/____/^|_^| ^|_/_/   \_\/_/\_\___/^|_^| \_\                                             
-echo.
 echo ================================================ 
 echo            [ SCRIPT AUTO INSTALL RDP ]
 echo                OWNER DEDI HUMAEDI
