@@ -46,9 +46,9 @@ case $choice in
         ;;
     4)
         # Windows 11 lite
-        img_file="windows11lite.img"
-        iso_link="http://152.42.254.10/win11.iso"
-        iso_file="windows11lite.iso"
+        img_file="windows2012.img"
+        iso_link="https://go.microsoft.com/fwlink/p/?linkid=2195588&clcid=0x409&culture=en-us&country=us"
+        iso_file="windows2012.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
