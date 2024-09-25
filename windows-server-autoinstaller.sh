@@ -6,7 +6,7 @@ display_menu() {
     echo "1. Windows Server 2016"
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
-    echo "4. windows11lite"
+    echo "4. windows Server 2012"
     read -p "Enter your choice: " choice
 }
 
